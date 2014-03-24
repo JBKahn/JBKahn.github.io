@@ -1,0 +1,72 @@
+html { 
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  background: url(img/background.png) no-repeat center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  -webkit-font-smoothing: antialiased;}
+
+a { color: #FFFFFF; font-weight: 600;   transition: color 0.5s ease-in-out;
+   -moz-transition: color 0.5s ease-in-out;
+   -webkit-transition: color 0.5s ease-in-out; text-decoration: none;}
+a:visited { color: #FFFFFF; }
+a:hover { color: #fe7a37; }
+a:focus { outline: none; }
+a.green:hover {color: #72CAC8;}
+a:hover, a:active { outline: 0; }
+
+#aboutMe {
+  width: 360px;
+  margin: 0 auto;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: #FFF;
+  font-size: 26px;
+  line-height: 28px;
+  font-weight: 300;
+  text-shadow: 0 0 1px rgba(0,0,0,0.3);
+  text-align: center;
+  display: none;
+  padding-top: 60px;
+}
+
+.my-picture {
+  height: 180px;
+  width: 180px;
+  border-radius: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  position: absolute;
+  left: 60px;
+  z-index: 100;
+  background: url(img/joseph.jpg) no-repeat -110px 0px; 
+}
+   
+
+#meAndLinks {
+  position: relative;
+  width: 300px;
+  height: 220px;
+  margin: 10px auto;
+}
+
+.circle { width: 60px; height: 60px; margin-top: -30px; margin-left: -30px; overflow: hidden; }
+.circle-wrap{ width:80px; height:80px; text-align:center; position:absolute; float:left;text-decoration:none; } 
+.circle-wrap .circle{ position:absolute; top:50%; left:50%;  height:60px; width:60px; display:block; overflow:hidden; margin:-30px 0 0 -30px; background:#2daae4; -moz-border-radius:75px; -webkit-border-radius:75px; border-radius:75px; }
+.circle-wrap .label{ z-index:5; position:relative; top:50%; width:100%; display:block; margin-top:-7px; color:#fff; text-align:center; text-shadow:1px 1px 1px #6caf1f; font:bold 16px "Helvetica Neue", Helvetica,Arial,sans-serif; line-height:14px; -webkit-font-smoothing: antialiased; }
+.demo-circle{ top:80px; left: -7px; }
+.right-circle{ top:75px; left:226px; }
+.right-circle .label{ text-shadow:1px 1px 1px #000; }
+.right-circle .circle{ background:#fe7a37; }
+.top-circle { right: 38px; top: -5px;}
+.top-circle .circle { background: #F26A6B;}
+.top-left-circle { left: 38px; top: -5px; }
+.top-left-circle .circle { background: #72CAC8;}
+.duplicated {
+  opacity: 0.5;
+  font-size: 11px;
+}
+i.fa-github { font-size:40px; margin-top: 18%; text-shadow: none; color: white;}
+i { font-size:30px; margin-top: 25%; text-shadow: none; color: white;}
