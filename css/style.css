@@ -67,6 +67,7 @@ a:hover, a:active { outline: 0; }
 .duplicated {
   opacity: 0.5;
   font-size: 11px;
+  margin-top: -10px;
 }
 i.fa-github { font-size:40px; margin-top: 18%; text-shadow: none; color: white;}
 i { font-size:30px; margin-top: 25%; text-shadow: none; color: white;}
