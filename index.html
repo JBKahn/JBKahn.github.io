@@ -5,6 +5,7 @@
     <meta name="description" content="">
     <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.js"></script>
+    <script type="text/javascript" src="js/mysite.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   </head>
@@ -14,20 +15,20 @@
           <h2 style="font-family: 'Lobster', cursive;">Joseph Kahn</h2>
         <span class="fade-in one">A <a href="#">Software Developer</a> based in <a href="https://www.google.ca/maps/place/Toronto,+ON/@43.7182712,-79.3777061,12z/data=!3m1!4b1!4m2!3m1!1s0x89d4cb90d7c63ba5:0x323555502ab4c477" target="_blank">Toronto, Canada</a>. Currently working at <a href="https://www.waveapps.com/" class="green" target="_blank">Wave</a>.</span>
         <div id="meAndLinks">
-          <a href="https://github.com/JBKahn" target="_blank" class="circle-wrap demo-circle">
+          <a href="https://github.com/JBKahn" target="_blank" class="circle-wrap demo-circle" onclick='trackOutboundLink("https://github.com/JBKahn"); return false;'>
                   <span class="label">
                   <span class="circle"><i class="fa fa-github"></i></span>
               </a>
           <span class="my-picture"></span>
-          <a href="https://ca.linkedin.com/in/jbkahn/" target="_blank" class="circle-wrap top-circle">
+          <a href="https://ca.linkedin.com/in/jbkahn/" target="_blank" class="circle-wrap top-circle" onclick='trackOutboundLink("https://ca.linkedin.com/in/jbkahn/"); return false;'>
             <span class="label">
             <span class="circle"><i class="fa fa-linkedin other"></i></span>
           </a>
-          <a href="https://drive.google.com/file/d/0ByO4L4aFkFrVYThGelY5RzJyT0U/edit?usp=sharing" target="_blank" class="circle-wrap top-left-circle">
+          <a href="https://drive.google.com/file/d/0ByO4L4aFkFrVYThGelY5RzJyT0U/edit?usp=sharing" target="_blank" class="circle-wrap top-left-circle" onclick='trackOutboundLink("https://drive.google.com/file/d/0ByO4L4aFkFrVYThGelY5RzJyT0U/edit?usp=sharing"); return false;'>
             <span class="label">
             <span class="circle"><i class="fa fa-list-ul other"></i></span>
           </a>
-          <a href="mailto:josephbkahn@gmail.com" class="circle-wrap right-circle">
+          <a href="mailto:josephbkahn@gmail.com" class="circle-wrap right-circle" onclick='trackOutboundLink("mailto:josephbkahn@gmail.com"); return false;'>
                   <span class="label"></span>
                   <span class="circle"><i class="fa fa-envelope-o other"></i></span></span>
               </a>
@@ -35,31 +36,5 @@
         <p class="duplicated">*This site is based entirely on <a href="http://www.rylographic.com/" target="_blank">rylographic.com</a></p>
       </div>
     </div>
-    <script type="text/javascript">
-      $(document).ready(function(){
-        $('#aboutMe').fadeIn(2200);
-        $('.circle-wrap').hover(
-          function(){
-            $('.circle',this).stop().animate({width : '80px', height : '80px', 'margin-top' : '-40px', 'margin-left' : '-40px'  }, 200);
-            $('.circle i.other',this).stop().animate({'font-size' : '43px' }, 200);
-            $('.circle i.fa-github',this).stop().animate({'font-size' : '55px' }, 200);
-          },
-          function(){
-            $('.circle',this).stop().animate({width : '60px', height : '60px', 'margin-top' : '-30px', 'margin-left' : '-30px'  }, 100);
-            $('.circle i.other',this).stop().animate({'font-size' : '30px' }, 100);
-            $('.circle i.fa-github',this).stop().animate({'font-size' : '40px' }, 100);
-          }
-        );
-      });
-    </script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-49300323-1', 'jbkahn.github.io');
-      ga('send', 'pageview');
-    </script>
   </body>
 </html>
