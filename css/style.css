@@ -1065,6 +1065,10 @@ h2#logo {
     resize: vertical;
 }
 
+#cta header p a {
+    color: white;
+}
+
 #about {
     padding-top: 100px;
 }
