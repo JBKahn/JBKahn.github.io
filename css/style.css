@@ -1094,3 +1094,7 @@ h2#logo {
     max-height: 254px;
     width: 100%;
 }
+
+.contact-submit {
+    color: #ccc;
+}
