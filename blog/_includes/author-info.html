@@ -1,0 +1,22 @@
+<div class="author-info" style="height: 85px;">
+    <img
+        class="avatar"
+        href="{{ author.display_name }}"
+        src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=80"
+        width="80"
+        height="80"
+        style="float: left; border: solid 1px #ccc; margin-right: 28px;"
+    >
+    {% if page.date %}
+        <p class="who" style="font-size: 18px; margin-bottom: 0;">Posted by <em style="font-weight: bold;">{{ author.display_name }}</em></p>
+    {% else %}
+        <p class="who" style="font-size: 18px; margin-bottom: 0;"><em style="font-weight: bold;">{{ author.display_name }}</em></p>
+    {% endif %}
+    {% if page.date %}
+        <p class="when" style="font-size: 14px; margin-bottom: 0;">{{ page.date | date_to_long_string }}</p>
+    {% endif %}
+    <ul class="external">
+        <li style="float: left; margin-right: 28px;"><a href="{{ author.website }}" title="Checkout {{ page.author | capitalize }}'s Website">Website</a></li>
+        <li style="float: left; margin-right: 28px;"><a href="https://github.com/{{ author.github }}" title="Follow {{ page.author | capitalize }}'s code on GitHub">GitHub</a></li>
+    </ul>
+</div>

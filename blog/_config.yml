@@ -1,0 +1,36 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            A Byte Of The Apple
+tagline:          Becoming A Better Developer One Mistake At A Time
+description:      A blog to discuss my work and learnings in the wold of tech.
+url:              jbkahn.github.io
+
+author:
+  name:           Joseph Kahn
+  url:            https://twitter.com/JosephBKahn
+
+paginate:         3
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/JBKahn
+
+
+authors:
+  joseph:
+    display_name: Joseph Kahn
+    job_title: Site Owner
+    gravatar: bed8813fdfbe1cf3712df58a6066ba84
+    email: josephbkahn@gmail.com
+    web: jbkahn.github.com
+    website: http://jbkahn.github.io
+    github: jbkahn
+    bio: 'some kind of bio.'
