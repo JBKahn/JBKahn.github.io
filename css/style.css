@@ -1082,16 +1082,20 @@ h2#logo {
     margin-bottom: 100px;
 }
 
-#projects a.image {
-    height: 254px;
+.has-error input, .has-error textarea {
+    border-color: #a94442 !important;
+}
+
+.contact-submit {
+    color: #ccc;
 }
 
 #projects a.image:before {
     background: none !important;
 }
 
-.has-error input, .has-error textarea {
-    border-color: #a94442 !important;
+#projects a.image {
+    height: 254px;
 }
 
 #projects img {
@@ -1099,6 +1103,11 @@ h2#logo {
     width: 100%;
 }
 
-.contact-submit {
-    color: #ccc;
+.full-size-projects a.image:before {
+    background: none !important;
+};
+
+.full-size-projects .feature img {
+    max-height: 548px;
+    width: 100%;
 }
