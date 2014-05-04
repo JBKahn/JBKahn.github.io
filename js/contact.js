@@ -17,6 +17,13 @@ function submitContactForm() {
         }
         $('.contact-submit').removeClass('disabled');
   }).done(function (data, textStatus, jqXHR) {
-    $('.contact-submit').remove()
+    $( "#cta .content form" ).css('overflow', 'hidden');
+    $( "#cta .content form" ).animate({
+        opacity: 0,
+        height: "toggle"
+    }, 1000, function() {
+        $('#cta .content').html("<p style=\"color: black;margin: 0px;display: none\">Thanks for the message. I'll get back to you as soon as possible.</p>");
+        $('#cta .content p').animate({height: "toggle"}, function () {});
+    });
   });
 }
