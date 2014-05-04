@@ -1089,3 +1089,8 @@ h2#logo {
 .has-error input, .has-error textarea {
     border-color: #a94442 !important;
 }
+
+#projects img {
+    max-height: 254px;
+    width: 100%;
+}
