@@ -6,7 +6,7 @@
 -->
 <html>
     <head>
-        <title>Joseph Kahn OrlyWaldman.com</title>
+        <title>Joseph Kahn Pandemic</title>
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <meta name="description" content="" />
         <meta name="keywords" content="" />
@@ -51,9 +51,9 @@
             <article id="main">
 
                 <header class="special container">
-                    <span class="icon fa-eye"></span>
-                    <h2><strong>orlywaldman.com</strong></h2>
-                    <p>A place to showcase Orly's work in the bridal makeup industry.</p>
+                    <span class="icon fa-flask"></span>
+                    <h2><strong>Pandemic Js</strong></h2>
+                    <p>The boardgame ported into NodeJs and AngularJs.</p>
                 </header>
                     
                 <!-- One -->
@@ -63,85 +63,56 @@
                             <div class="content full-size-projects">
                                 <section>
                                     <header>
-                                        <h3>The Project</h3>
+                                        <h3>Work To Be Done</h3>
                                     </header>
-                                    <p>Developing a responsive website for my sister Orly to showcase her previous work in the bridal makeup industry and drive more online business. The website was designed to be both day-to-day managable by Orly and easy to tweak when there are harder jobs to be done. Click <a href="http://orlywaldman.com" target="_blank"><strong>here</strong></a> to visit her website.</p>
+                                    <p>When I forked this repository, there was a lot of work left to do. I've only recently began and I've decided upon a plan of action.</p>
                                 </section>
                             </div>
                         <div class="row">
                             <div class="6u">
                             
                                 <section>
-                                    <img src="images/orlyweb.png" alt="orlywaldman.com" />
                                     <header>
-                                        <h3>Home Page</h3>
+                                        <h3>Refactoring</h3>
                                     </header>
-                                    <p>The home page of the site was designed to have a picture of one of Orly's best works as well as to drive customers to contact her. That is done with a clear call to action standing out on the page, a bright blue button as well as two testimonials underneath to show what good things her clients have to say about her services.</p>
+                                    <p>The main method which runs the game is not only long, but also uses a lot of global variables in order to run the game. Ideally, I'd like to refactor this method into smaller functions which act only on local objects passed to them. I've already began refactoring and linting the file.</p>
                                 </section>
 
                             </div>
                             <div class="6u">
                             
                                 <section>
-                                    <img src="images/orly_admin.png" alt="" />
                                     <header>
-                                        <h3>Admin</h3>
+                                        <h3>Testing</h3>
                                     </header>
-                                    <p>The admin was skinned using Django-Grappelli and built to be powerful enough and easy enough for Orly's regular website maintenance tasks. In the Portfolio sections of the admin, the images can be rearranged using Drag &amp; Drop and thumbnails are generated automatically on upload. The uploaded thumbnails are then concatenated to create a thumbnail sprite for each section. In the reviews section there is also an active field to allow Orly to turn reviews on and off.</p>
+                                    <p>The game already has a fair number of tests written for the existing code base. As I develop features, I've been writing tests on those features to ensure the code remains well tested. I've also added Travis CI to the repository so that every pull request I create will only be merged if the tests are passing. I've already linted and added some tests to the file as well as fixed a few tests which were broken when I checked out the repository.</p>
                                 </section>
 
                             </div>
                         </div>
+
                         <div class="row">
                             <div class="6u">
                             
                                 <section>
-                                    <img src="images/orly_portfolio.png" alt="orlywaldman.com" />
                                     <header>
-                                        <h3>Porfolio</h3>
+                                        <h3>Front-end</h3>
                                     </header>
-                                    <p>The portfolio was created using two javascript plugins that place the images into stacked columns and to turn thsoe images into a clickable gallery that can be easily navigated on a desktop or a phone. The Masonry plugin was used to place the images into either 1, 2, or 3 columns depending on the screen size to make the gallery look polished. The blueimp Gallery was used to create the gallery lighbox that can easy to use mouse, keyboard and touch controls.</p>
+                                    <p>The front-end of the game is mostly done, although it could use a design touchup as well as some additional features to make playing the game quicker and easier. I've done minor front-end work so far, focusing more on the back-end. I have added a fair amount of front-end validation to avoid making knowling bad requests to the server.</p>
                                 </section>
 
                             </div>
                             <div class="6u">
                             
                                 <section>
-                                    <img src="images/orly_testimonials.png" alt="" />
                                     <header>
-                                        <h3>Testimonials</h3>
+                                        <h3>Graphics</h3>
                                     </header>
-                                    <p>The testimonials were designed to stand out against the white background and include circular photos for brides which provided one. The longer more detailed testimonials are at the bottom of the page for those who wish to read more about Orly's work and the short one's are the top to allow for someone to get a feel for what her customers think of her without spending too much time on the page.</p>
+                                    <p>There exists a html canvas where the map is being drawn as well as updated by the various moved a player can make. I'd like to improve upon the existing graphics to make the game visually more enjoyable.</p>
                                 </section>
 
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="6u">
-                            
-                                <section>
-                                    <img src="images/orly_artist.png" alt="" />
-                                    <header>
-                                        <h3>Artist</h3>
-                                    </header>
-                                    <p>This page was designed to tell her customers about her, her awards and her mentions. The page is balanced to try to show her awards and mentions without taking the focus away from Orly.</p>
-                                </section>
-
-                            </div>
-
-                            <div class="6u">
-                            
-                                <section>
-                                    <img src="images/orly_contact.png" alt="" />
-                                    <header>
-                                        <h3>Contact</h3>
-                                    </header>
-                                    <p>The contact form was made using a simple bootstrap template and small javascript snipped to send the POST to a Django Rest Framework endpoint that validates the input and responds with either a 402 or a 200. In the event of a 200, the form information is sent to Orly and the form is replaced with a thank you message.</p>
-                                </section>
-
-                            </div>
-                        </div>
-
                     </section>
 
                 <!-- Two -->
@@ -150,33 +121,33 @@
                             <div class="4u">
                             
                                 <section>
-                                    <span class="icon feature fa-code"></span>
+                                    <span class="icon feature fa-code-fork"></span>
                                     <header>
-                                        <h3>Grunt &amp; Bower</h3>
+                                        <h3>Open Source</h3>
                                     </header>
-                                    <p>A Gruntfile was used to turn the easy to write SASS and Jade into Django templates and CSS files. The Gruntfile was also used to bower install all the front-end requirements and turn them into a single javascript and a single css file.</p>
+                                    <p>Forking an open source project in order to contribute to it.</p>
                                 </section>
                             
                             </div>
                             <div class="4u">
 
                                 <section>
-                                    <span class="icon feature fa-mobile"></span>
+                                    <span class="icon feature fa-code"></span>
                                     <header>
-                                        <h3>Responsive</h3>
+                                        <h3>New Frameworks</h3>
                                     </header>
-                                    <p>Every page was tested on several resolutions to ensure it was both functional and professional looking.</p>
+                                    <p>Learning about NodeJs and event driven server development.</p>
                                 </section>
                             
                             </div>
                             <div class="4u">
                             
                                 <section>
-                                    <span class="icon feature fa-bar-chart-o"></span>
+                                    <span class="icon feature fa-pencil"></span>
                                     <header>
-                                        <h3>Analytics</h3>
+                                        <h3>Design</h3>
                                     </header>
-                                    <p>Using Google Analytics as well as user testing, the site was designed for ease of use to help future brides find what they are looking for. By using these tools we hope to increase her online leads significantly, in comparison to her old website.</p>
+                                    <p>Designing an easy to use and clean looking interface for the game.</p>
                                 </section>
                             
                             </div>

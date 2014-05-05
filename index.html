@@ -37,9 +37,19 @@
                         <li class="current submenu">
                             <a href="">Navigation</a>
                             <ul>
+                                <li><a href="#banner" class="scrolly">Home</a></li>
                                 <li><a href="#about-blog" class="scrolly">My Blog</a></li>
                                 <li><a href="#about" class="scrolly">About Me</a></li>
-                                <li><a href="#projects" class="scrolly">Projects</a></li>
+                                <li class="submenu opener" style="-webkit-user-select: none; cursor: pointer; white-space: nowrap; opacity: 1;">
+                                    <a href="" style="display: block;">Projects</a>
+                                    <ul class="dropotron level-1" style="-webkit-user-select: none; display: none; position: absolute; z-index: 1001; top: 128px; left: -282px; opacity: 1;">
+                                        <li style="white-space: nowrap;"><a href="#projects" class="scrolly" style="display: block;">Overview</a></li>
+                                        <li style="white-space: nowrap;"><a href="orlywaldman.html" style="display: block;">OrlyWaldman.com</a></li>
+                                        <li style="white-space: nowrap;"><a href="wave.html" style="display: block;">Wave</a></li>
+                                        <li style="white-space: nowrap;"><a href="school.html" style="display: block;">School Projects</a></li>
+                                        <li style="white-space: nowrap;"><a href="pandemic.html" style="display: block;">Pandemic Js</a></li>
+                                    </ul>
+                                </li>
                                 <li><a href="#cta" class="scrolly">Contact</a></li>
                                 <li><a href="#footer" class="scrolly">Links</a></li>
                             </ul>
@@ -166,14 +176,11 @@
                             <div class="6u">
                             
                                 <section>
-                                    <a href="orlywaldman.html" class="image feature"><img src="images/orlyweb.png" alt="orlywaldman.com" /></a>
+                                    <div class="project-image"><a href="orlywaldman.html" class="image feature"><img src="images/orlyweb.png" alt="orlywaldman.com" /></a></div>
                                     <header>
                                         <h3>Orlywaldman.com</h3>
                                     </header>
-                                    <p>A website built for my sister, a makeup artist in Toronto, to showcase her work and drive more business from the web. It was written with a focus on making the day-to-day management easy for a non-techincal individual. It was written in Django on the backend and using Jade, SASS, Javascipt and Grunt on the frontend.</p>
-                                <ul class="buttons">
-                                    <li><a href="orlywaldman.html" class="button">Learn More</a></li>
-                                </ul>                                
+                                    <p>A website built for my sister, a makeup artist in Toronto, to showcase her work and drive more business from the web. It was written with a focus on making the day-to-day management easy for a non-techincal individual. It was written in Django on the backend and using Jade, SASS, Javascipt and Grunt on the frontend.</p> 
                                 </section>
 
 
@@ -181,26 +188,42 @@
                             <div class="6u">
                             
                                 <section>
-                                    <img src="images/wave.png" alt="" />
-                                    <!-- <a href="#" class="image feature"><img src="images/wave.png" alt="" /></a> -->
+                                    <div class="project-image"><a href="wave.html" class="image feature"><img src="images/wave_home.png" alt="" /></a></div>
                                     <header>
                                         <h3>Wave Accounting</h3>
                                     </header>
-                                    <p>For my professional experience year at the University of Toronto, I've had the privledge of working as a developer at Wave. I work on the foundation team, a team dedicated to fixing, improving and upgrading the core accounting product.</p>
+                                    <p>For my professional experience year at the University of Toronto, I've had the privledge of working as a developer at Wave. I work on the foundation team, a team dedicated to fixing, improving and upgrading the core accounting product.</p>                   
                                 </section>
 
                             </div>
                         </div>
+
+                        <div class="row">
+                            <div class="6u school-repositories">
+                                <section>
+                                <ul class="buttons">
+                                    <li><a href="orlywaldman.html" target="_blank" class="button">Learn More</a></li>
+                                </ul>  
+                                </section>
+                            </div>
+                            <div class="6u school-repositories">
+                                <section>
+                                <ul class="buttons">
+                                    <li><a href="wave.html" target="_blank" class="button">Learn More</a></li>
+                                </ul>  
+                                </section>
+                            </div>
+                        </div>
+
                         <div class="row">
                             <div class="6u">
                             
                                 <section>
-                                    <img src="images/school.png" alt="" />
-                                    <!-- <a href="#" class="image feature"><img src="images/school.png" alt="" /></a> -->
+                                    <div class="project-image"><a href="school.html" class="image feature"><img src="images/school.png" alt="" /></a></div>
                                     <header>
                                         <h3>School Projects</h3>
                                     </header>
-                                    <p>I'm currently in my 5th yeat as the University of Toronto, having enrolled in Computer Sceince halfway through my Genetics degree after taking some programming electives.</p>
+                                    <p>I'm currently in my 5th yeat as the University of Toronto. I enrolled in a Computer Sceince Specialist halfway through my Genetics degree after taking some programming electives.</p>
                                 </section>
 
                             </div>
@@ -208,14 +231,30 @@
                             <div class="6u">
                             
                                 <section>
-                                    <img src="images/pandemic.png" alt="" />
-                                    <!-- <a href="#" class="image feature"><img src="images/pandemic.png" alt="" /></a> -->
+                                    <div class="project-image"><a href="pandemic.html" class="image feature"><img src="images/pandemic.png" alt="" /></a></div>
                                     <header>
                                         <h3>Panemic Js</h3>
                                     </header>
                                     <p>A project I recently forked on Github, Pandemic Js is an attempt to port the boardgame into NodeJs and AngularJs. I began working on it by refactoring some of the core turn mechanics and by adding some of the missing features. I have a plan to do more refactoring to make the application more modular before adding additional features.</p>
                                 </section>
 
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="6u school-repositories">
+                                <section>
+                                <ul class="buttons">
+                                    <li><a href="school.html" target="_blank" class="button">Learn More</a></li>
+                                </ul>  
+                                </section>
+                            </div>
+                            <div class="6u school-repositories">
+                                <section>
+                                <ul class="buttons">
+                                    <li><a href="pandemic.html" target="_blank" class="button">Learn More</a></li>
+                                </ul>  
+                                </section>
                             </div>
                         </div>
 

@@ -1094,10 +1094,6 @@ h2#logo {
     background: none !important;
 }
 
-#projects a.image {
-    height: 254px;
-}
-
 #projects img {
     max-height: 254px;
     width: 100%;
@@ -1110,4 +1106,14 @@ h2#logo {
 .full-size-projects .feature img {
     max-height: 548px;
     width: 100%;
+}
+
+.project-image {
+    min-height: 230px;
+    display: block;
+    margin: 0 0 2em 0;
+}
+
+.school-repositories {
+    padding-top: 0 !important;
 }

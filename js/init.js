@@ -103,7 +103,7 @@ skel.init({
 
         // Dropdowns.
             $('#nav > ul').dropotron({
-                offsetY: -13,
+                offsetY: -15,
                 mode: 'fade',
                 noOpenerFade: true,
                 expandMode: (skel.vars.isTouch ? 'click' : 'hover')
