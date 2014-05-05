@@ -26,20 +26,20 @@ n33.co @n33co dribbble.com/n33
 Credits
 =======
 
-    Images (Demo Only)
-        Michael Domaradzki (http://mdomaradzki.deviantart.com/)    
-            "Night Vision" (http://mdomaradzki.deviantart.com/art/Night-Vision-384070222)
-            "At the Station II" (http://mdomaradzki.deviantart.com/art/At-the-Station-II-37023322)
-            "Airchitecture II" (http://mdomaradzki.deviantart.com/art/Airchitecture-II-385212804)
-            "Livewires II" (http://mdomaradzki.deviantart.com/art/Livewires-II-358817199)
-            "Midnite Xpress I" (http://mdomaradzki.deviantart.com/art/Midnite-Xpress-I-371126495)
+	Images (Demo Only)
+		Michael Domaradzki (http://mdomaradzki.deviantart.com/)	
+			"Night Vision" (http://mdomaradzki.deviantart.com/art/Night-Vision-384070222)
+			"At the Station II" (http://mdomaradzki.deviantart.com/art/At-the-Station-II-37023322)
+			"Airchitecture II" (http://mdomaradzki.deviantart.com/art/Airchitecture-II-385212804)
+			"Livewires II" (http://mdomaradzki.deviantart.com/art/Livewires-II-358817199)
+			"Midnite Xpress I" (http://mdomaradzki.deviantart.com/art/Midnite-Xpress-I-371126495)
 
-    Icons
-        Font Awesome (http://fortawesome.github.com/Font-Awesome/)
+	Icons
+		Font Awesome (http://fortawesome.github.com/Font-Awesome/)
 
-    Other
-        jQuery (jquery.com)
-        html5shiv.js (@afarkas @jdalton @jon_neal @rem)
-        background-size polyfill (https://github.com/louisremi/background-size-polyfill)
-        Misc jQuery plugins (n33.co)
-        skel (n33.co)
+	Other
+		jQuery (jquery.com)
+		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
+		background-size polyfill (https://github.com/louisremi/background-size-polyfill)
+		Misc jQuery plugins (n33.co)
+		skel (n33.co)
