@@ -342,6 +342,10 @@
                 background: #dcad8b;
                 color: white;
             }
+                .icon.circle.school.fa-github {
+                  background: #999;
+                  color: white;
+                }
 
                 .icon.circle.fa-github:hover {
                     background: #e1b89b;
