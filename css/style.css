@@ -342,6 +342,15 @@
                 background: #dcad8b;
                 color: white;
             }
+            /* trying something different for the school page instead of buttons */
+                .icon.circle.school.fa-github {
+                  background: #999;
+                  color: white;
+                }
+
+                .icon.circle.school.fa-github:hover {
+                  background:#53a6ce;
+                }
 
                 .icon.circle.fa-github:hover {
                     background: #e1b89b;
