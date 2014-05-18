@@ -1126,3 +1126,31 @@ h2#logo {
 .school-repositories {
     padding-top: 0 !important;
 }
+
+a.icon.circle.fa-github.repo {
+    background: #999;
+}
+
+a.icon.circle.fa-github.repo:hover {
+    background: #dcad8b;
+}
+
+#projects p {
+    min-height: 208px;
+}
+
+#projects .buttons a {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.project-divider {
+    margin: 20px auto;
+    border: 0;
+    border-bottom: 1px solid #e3e3e3;
+    width: 90%;
+}
+
+.center {
+    text-align: center;
+}
