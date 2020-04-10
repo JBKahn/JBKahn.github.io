@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Joseph Kahn&#39;s Website</title>
+    <link>https://www.josephkahn.io/</link>
+    <description>Recent content on Joseph Kahn&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	<atom:link href="https://www.josephkahn.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About Me</title>
+      <link>https://www.josephkahn.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.josephkahn.io/about/</guid>
+      <description>Joseph Kahn is currently a Senior Engineer at Shopify, formerly a Staff Engineer at Wave. During his time working in the software industry, he has had the opportunity to work on some challenging problems. These include scaling an event sourcing Django application, sharding Postgres databases, and creating an infrastructure to scale along with the business side of things. When not improving code readability or performance, he can be found baking pizza in the kitchen.</description>
+    </item>
+    
+  </channel>
+</rss>
