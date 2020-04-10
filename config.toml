@@ -1,0 +1,71 @@
+baseurl = "https://www.josephkahn.io/"
+title = "Joseph Kahn's Website"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "JBKahn"
+
+[params]
+    author = "Joseph Kahn"
+    info = "Senior Software Engineer & Aspiring Pizza Chef"
+    description = "Joseph Kahn's personal website"
+    keywords = "blog,developer,personal"
+    avatarurl = "/img/avatar.jpg"
+
+    favicon_32 = "/img/favicon-32x32.png"
+    favicon_16 = "/img/favicon-16x16.png"
+
+    footercontent = ""
+
+    hidecredits = false
+    hidecopyright = false
+
+    rtl = false
+
+    math = true
+    custom_css = ["css/custom.css"]
+
+# Social links
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 1
+    url = "https://www.linkedin.com/in/jbkahn/"
+[[params.social]]
+    name = "Dev Community"
+    icon = "fab fa-dev"
+    weight = 2
+    url = "https://dev.to/jbkahn"
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 3
+    url = "https://github.com/JBKahn/"
+[[params.social]]
+    name = "Facebook"
+    icon = "fab fa-facebook"
+    weight = 4
+    url = "https://www.facebook.com/josephkahn"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter"
+    weight = 5
+    url = "https://twitter.com/JosephBKahn/"
+
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "https://dev.to/jbkahn"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about/"
